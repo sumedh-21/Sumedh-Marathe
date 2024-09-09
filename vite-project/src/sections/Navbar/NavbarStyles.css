@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--background-color);
+  position: relative;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  color: var(---text-color);
+  font-size: 24px;
+  font-weight: 300px;
+}
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: var(---text-color);
+  font-family: "Poppins", monospace;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.navLinks a:hover {
+  color: var(---btn-color);
+}

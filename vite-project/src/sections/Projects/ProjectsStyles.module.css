@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styling for each project item */
+.projectItem {
+  text-align: left;
+}
+
+/* Project title styling */
+.projectItem h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Project description styling */
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 3px;
+}
+
+/* Styling for the links */
+a {
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+  color: var(---text-color);
+}
+
+a:hover {
+  color: #0987f2;
+}
+
+/* Responsive styling */
+@media (width >= 800px) {
+  .projectsContainer {
+    align-items: center;
+  }
+
+  .projectItem {
+    max-width: 700px;
+  }
+}
