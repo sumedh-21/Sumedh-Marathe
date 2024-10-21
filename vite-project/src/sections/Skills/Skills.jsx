@@ -20,6 +20,8 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="CUDA" />
+        <SkillList src={checkMarkIcon} skill="REST API" />
+        <SkillList src={checkMarkIcon} skill="NLP" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -30,6 +32,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Numpy" />
         <SkillList src={checkMarkIcon} skill="TensorFlow" />
         <SkillList src={checkMarkIcon} skill="Github" />
+        <SkillList src={checkMarkIcon} skill="Generative AI" />
+        <SkillList src={checkMarkIcon} skill="Sci-kit-learn" />
+        <SkillList src={checkMarkIcon} skill="Matplotlib" />
+        <SkillList src={checkMarkIcon} skill="Pandas" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -39,6 +45,7 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="WireShark" />
         <SkillList src={checkMarkIcon} skill="Docker" />
         <SkillList src={checkMarkIcon} skill="AutoCad" />
+        <SkillList src={checkMarkIcon} skill="Git/Github" />
       </div>
     </section>
   );
