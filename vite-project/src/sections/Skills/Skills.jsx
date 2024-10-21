@@ -34,11 +34,11 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Github" />
         <SkillList src={checkMarkIcon} skill="Generative AI" />
         <SkillList src={checkMarkIcon} skill="Sci-kit-learn" />
-        <SkillList src={checkMarkIcon} skill="Matplotlib" />
-        <SkillList src={checkMarkIcon} skill="Pandas" />
       </div>
       <hr />
       <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Matplotlib" />
+        <SkillList src={checkMarkIcon} skill="Pandas" />
         <SkillList src={checkMarkIcon} skill="VmWare" />
         <SkillList src={checkMarkIcon} skill="Hadoop" />
         <SkillList src={checkMarkIcon} skill="SimpleScalar" />
