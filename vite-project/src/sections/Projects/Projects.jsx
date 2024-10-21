@@ -3,6 +3,14 @@ import styles from "./ProjectsStyles.module.css";
 function Projects() {
   const projects = [
     {
+      name: "SlangScribe: Transcribe,Translate and Genzify Your Lectures",
+      description: `SlangScribe is a web application designed to transcribe audio files, 
+      summarize the transcriptions, translate them into multiple languages, and even "Genzify" 
+      the content into Gen-Z slang for added fun! It uses OpenAI's GPT-4 for high-quality text generation and summarization, 
+      Whisper for transcription, and Hugging Face pipelines for translation.`,
+      link: "https://github.com/sumedh-21/SlangScribe-Translate-Transcribe-and-Genzify-your-Lectures",
+    },
+    {
       name: "Incremental Shortest Path Algorithm for Dynamic Network Optimization",
       description: `Developed an Incremental Shortest Path Algorithm that adapts to dynamic network changes, offering up to 50x faster performance compared to traditional methods.`,
       link: "https://github.com/sumedh-21/ECE-573-DSA-finalproject",
@@ -16,14 +24,6 @@ function Projects() {
       name: "Comparative Analysis of Methods To Alleviate CPU-GPU Data Transfer Overhead",
       description: `Enhanced CPU-GPU data transfer in CUDA using Unified Memory and Thread Hierarchy, improving performance and energy efficiency.`,
       link: "https://github.com/sumedh-21/cuda-memoryops",
-    },
-    {
-      name: "SlangScribe: Transcribe,Translate and Genzify Your Lectures",
-      description: `SlangScribe is a web application designed to transcribe audio files, 
-      summarize the transcriptions, translate them into multiple languages, and even "Genzify" 
-      the content into Gen-Z slang for added fun! It uses OpenAI's GPT-4 for high-quality text generation and summarization, 
-      Whisper for transcription, and Hugging Face pipelines for translation.`,
-      link: "https://github.com/sumedh-21/SlangScribe-Translate-Transcribe-and-Genzify-your-Lectures",
     },
   ];
 
